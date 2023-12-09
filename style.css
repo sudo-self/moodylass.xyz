@@ -1,0 +1,86 @@
+* {
+  user-select: none;
+}
+.word {
+  position: absolute;
+  cursor: grab;
+  font-size: 30px;
+  color: #ffeb3b;
+}
+.word.highlighted {
+  font-weight: bold;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 1rem;
+}
+
+
+body {
+  background: #141314;
+  margin: 0;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  outline: none;
+  background: url("https://kettle.moodylass.com/dxyz.gif");
+  background-size: contain;
+  background-position: top left;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 9rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+button {
+    background-color: #04d9ff;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+  }
+#footer {
+  height: {FOOTER_HEIGHT};
+  background: aliceblue;
+  width: 100%;
+  text-align: center;
+  line-height: {FOOTER_HEIGHT};
+}
+
+.myButton {
+   box-shadow: 0px 0px 0px 0px #3dc21b;
+   background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+   background-color:#44c767;
+   border-radius:28px;
+   border:1px solid #18ab29;
+   display:inline-block;
+   cursor:pointer;
+   color:#ffffff;
+   font-family:Arial;
+   font-size:25px;
+   padding:16px 31px;
+   text-decoration:none;
+   text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+   background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+   background-color:#5cbf2a;
+}
+.myButton:active {
+   position:relative;
+   top:1px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;900&display=swap');
+
+

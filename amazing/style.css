@@ -1,0 +1,21 @@
+body {
+  background: black;
+  margin: 0;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  outline: none;
+  background: url("11.gif");
+  background-size: contain;
+  background-position: top left;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
